@@ -1,0 +1,34 @@
+--"nvim-from-vim
+--set runtimepath^=~/.vim runtimepath+=/.vim/after
+--let &packpath = &runtimepath
+
+--:set number
+--:set autoindent
+--:set tabstop=4
+--:set smarttab
+--:set softtabstop=4
+
+--:set mouse=a
+
+--"python integration
+
+--source $HOME/.config/nvim/vim-plug/plugins.vim
+
+--nvim-from-vim
+
+
+
+
+vim.opt.number = true
+vim.opt.autoindent = true
+
+vim.opt.tabstop = 4
+
+vim.opt.smarttab = true
+
+vim.opt.softtabstop = 4
+vim.opt.mouse = 'a'
+
+--python integration
+
+source $HOME/.config/nvim/vim-plug/plugins.vim
