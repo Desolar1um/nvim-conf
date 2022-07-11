@@ -20,9 +20,9 @@ vim.cmd('source $HOME/.config/nvim/vim-plug/plugins.vim')
 --Theme
 vim.cmd[[colorscheme nightfox]]
 
-require "lua._nightfox"   -- Theme
-require "lua._treesitter" 
-require "lua._tree"
-require "lua._telescope"
-require "lua._keybinds"
-require "lua._cmp"
+require "_nightfox"   -- Theme
+require "_treesitter" 
+require "_tree"
+require "_telescope"
+require "_keybinds"
+require "_cmp"
