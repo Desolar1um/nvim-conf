@@ -1,6 +1,7 @@
 call plug#begin()
 
 Plug 'neovim/nvim-lspconfig'
+Plug 'williamboman/nvim-lsp-installer' " simple Language server installer
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'p00f/nvim-ts-rainbow'
 Plug 'nvim-lua/plenary.nvim'
@@ -13,6 +14,8 @@ Plug 'hrsh7th/nvim-cmp' " The completion plugin
 Plug 'hrsh7th/cmp-buffer' " buffer completions
 Plug 'hrsh7th/cmp-path' " path completions
 Plug 'hrsh7th/cmp-cmdline' " cmdline completions
+Plug 'hrsh7th/cmp-nvim-lua' " cmdline completions
+Plug 'hrsh7th/cmp-nvim-lsp' " cmdline completions
 Plug 'saadparwaiz1/cmp_luasnip' " snippet completions
 
 " snippets

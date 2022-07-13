@@ -18,7 +18,7 @@ vim.g.mapleader = ','
 vim.cmd('source $HOME/.config/nvim/vim-plug/plugins.vim')
 
 --Theme
-vim.cmd[[colorscheme nightfox]]
+vim.cmd[[colorscheme sonokai]]
 
 require "_nightfox"   -- Theme
 require "_treesitter" 
@@ -26,3 +26,4 @@ require "_tree"
 require "_telescope"
 require "_keybinds"
 require "_cmp"
+require "_lsp"
